@@ -74,8 +74,8 @@ This project is a Go-based backend service that implements a simple task managem
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/taskservice.git
-cd taskservice
+git clone https://github.com/valeraBerezovskij/testappDev.git
+cd testappDev
 ```
 
 ### 2. Create a `.env` File
