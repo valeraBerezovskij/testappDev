@@ -153,7 +153,7 @@ A successful request will return a JSON response with the task details, includin
 
 #### Add Prometheus as a Data Source:
 
-1. Click the gear icon (⚙️) in the sidebar and select **Data Sources**.
+1. Click the gear icon in the sidebar and select **Data Sources**.
 2. Click **Add data source** and choose **Prometheus**.
 3. Set the URL to `http://prometheus:9090` (if using Docker networking) or `http://localhost:9090` (if accessing directly).
 4. Click **Save & Test**.
@@ -186,7 +186,3 @@ To stop the application and remove containers, run:
 ```bash
 docker-compose down
 ```
-
-## License
-
-This project is licensed under the MIT License.
