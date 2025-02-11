@@ -31,3 +31,20 @@ This project is a Go-based backend service that implements a simple task managem
   - Runs the backend service, PostgreSQL, Prometheus, and Grafana.
 - **Clean Architecture**:  
   - Organized into domain, repository, service, and delivery layers for maintainability.
+
+## Prerequisites
+
+- [Docker](https://www.docker.com/get-started)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- (Optional) [Go 1.20+](https://golang.org/dl/) for local development
+
+
+## Create a .env File:
+
+Create a .env file in the root of the project with the following contents:
+
+DB_HOST=postgres
+DB_PORT=5432
+DB_USER=postgres
+DB_PASSWORD=password
+DB_NAME=tasks_db
